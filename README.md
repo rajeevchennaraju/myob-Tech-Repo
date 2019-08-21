@@ -21,8 +21,10 @@ Mocha test is encorporated with this application.
 # Application access - Endpoint details
 GET / - http://localhost:3000
   Response: Hello World
+  
 GET /health -http://localhost:3000/health
   Response: {"message":"Application is up and running","Status":"","status":"200"}
+  
 GET /metadata - http://localhost:3000/metadata
   Response: {"name":"myobtechtest","version":"1.0.0","description":"pre-interview technical test"}
   
