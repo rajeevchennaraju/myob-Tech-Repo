@@ -1,0 +1,31 @@
+{
+  "name": "myobtechtest",
+  "version": "1.0.0",
+  "description": "pre-interview technical test",
+  "entry point": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "mocha"
+  },
+  "author": "Rajeev Chennaraju",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "~3.5.3",
+    "request": "^2.88.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeevchennaraju/myob-Tech-Repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rajeevchennaraju/myob-Tech-Repo/issues"
+  },
+  "homepage": "https://github.com/rajeevchennaraju/myob-Tech-Repo#readme"
+}
