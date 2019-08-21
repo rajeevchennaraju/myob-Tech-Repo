@@ -2,7 +2,6 @@
   "name": "myobtechtest",
   "version": "1.0.0",
   "description": "pre-interview technical test",
-  "entry point": "app.js",
   "scripts": {
     "start": "node ./app.js",
     "test": "mocha"
@@ -22,10 +21,11 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rajeevchennaraju/myob-Tech-Repo.git"
+    "url": "https://github.com/rajeevchennaraju/myob-Tech-Repo.git"
   },
   "bugs": {
     "url": "https://github.com/rajeevchennaraju/myob-Tech-Repo/issues"
   },
   "homepage": "https://github.com/rajeevchennaraju/myob-Tech-Repo#readme"
 }
+

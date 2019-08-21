@@ -1,0 +1,15 @@
+dist: trusty
+
+language: node_js
+node_js:
+  - "10"
+before_install:
+    # Nothing to execute at before install section.
+
+install:
+    - git clone git@github.com:rajeevchennaraju/myob-Tech-Repo.git myob-Tech-Repo
+    - cd myob-Tech-Repo
+    - npm install
+script:
+    - npm test
+    #- npm start
