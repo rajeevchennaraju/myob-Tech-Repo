@@ -1,6 +1,7 @@
 //Load express module with `require` directive
 var express = require('express')
 var app = express()
+var packageObj = require('./package.json')
 //var exports = module.exports = {};
 
 //Define request response in root URL (/)
@@ -39,4 +40,5 @@ app.get('/metadata', function (req, res) {
   //res.status(testResult.status).json(testResult);
   res.send(metadata);
 });
+
 
