@@ -34,5 +34,5 @@ Any commit to the application repository build pipeline will be triggered automa
   
   
 # References:
-GitHub - git@github.com:rajeevchennaraju/myob-Tech-Repo.git
+GitHub - git@github.com:rajeevchennaraju/myob-Tech-Repo.git <br>
 Travis-CI - https://travis-ci.com/rajeevchennaraju/myob-Tech-Repo
