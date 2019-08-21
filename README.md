@@ -19,13 +19,13 @@ Mocha test is encorporated with this application.
   Replace las step npm start with npm test.
 
 # Application access - Endpoint details
-GET / - http://localhost:3000
+GET / - http://localhost:3000 <br>
   Response: Hello World
   
-GET /health -http://localhost:3000/health
+GET /health -http://localhost:3000/health <br>
   Response: {"message":"Application is up and running","Status":"","status":"200"}
   
-GET /metadata - http://localhost:3000/metadata
+GET /metadata - http://localhost:3000/metadata <br>
   Response: {"name":"myobtechtest","version":"1.0.0","description":"pre-interview technical test"}
   
 # Build Pipeline
